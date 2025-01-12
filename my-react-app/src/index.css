@@ -1,0 +1,288 @@
+.student{
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: inherit;
+  text-decoration: underline;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 0;
+
+}
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: rgb(65, 205, 224);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: fantasy;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: rgb(204, 18, 18);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+  font-family: fantasy;
+}
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: rgb(114, 6, 156);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: rgb(11, 252, 252);
+}
+
+.list-items{
+  text-align: center;
+  font-size: 2em;
+  list-style: none;
+  color:rgb(15, 200, 107);
+  margin: 0;
+}
+
+.list-items li:hover{
+  color:rgb(69, 134, 134);
+  cursor: crosshair;
+}
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.count-display{
+  font-size: 5rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-top: 100px;
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover{
+  background-color: aquamarine;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(113, 109, 109);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.01s ease;
+}
+
+.color-display p{
+  color: rgb(61, 58, 58);
+  font-size: 2rem;
+  text-align: center;
+}
+
+label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(184, 30, 30);
+}
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  color: rgb(171, 30, 30);
+  font-size: 1rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button{
+  background-color: rgb(48, 220, 48);
+}
+
+.add-button:hover{
+  background-color: rgb(26, 156, 26);
+}
+
+.delete-button{
+  background-color: rgb(235, 52, 52);
+}
+
+.delete-button:hover{
+  background-color: rgb(189, 24, 24);
+}
+
+.move-button{
+  background-color: rgb(60, 60, 225);
+}
+
+.move-button:hover{
+  background-color: rgb(24, 40, 151);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(125, 124, 124);
+  border-radius: 5px;
+  color: rgb(133, 123, 123)
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsl(0, 6%, 75%);
+  border-radius: 5px;
+  align-items: center;
+}
+
+.text{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+  
+}
+
+.clock-container{
+  backdrop-filter: blur(50px);
+}
+
+.clock{
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+}
+
+.box{
+  border: 3px solid;
+  padding: 25px;
+
+}
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: rgb(50, 48, 48);
+  text-shadow: 2px 2px 2px rgb(113, 94, 94);
+  margin-bottom: 25px;
+}
+
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.start-button{
+  background-color: rgb(66, 224, 66); 
+}
+
+.start-button:hover{
+  background-color: rgb(41, 153, 41); 
+}
+
+.stop-button{
+  background-color: rgb(223, 56, 56); 
+}
+
+.stop-button:hover{
+  background-color: rgb(163, 31, 31); 
+}
+
+.reset-button{
+  background-color: rgb(43, 88, 211); 
+}
+
+.reset-button:hover{
+  background-color: rgb(27, 63, 140); 
+}
+
